@@ -7,7 +7,7 @@ while n>=42 and  n<=176: ##Con WHILE
     if n%2!=0:
         resul+=n
         print("n:",n)
-    n+=1 
+    n+=1                    ##CORRECION: 2 para ahorrarnos el if aplica para for tambien
 print("resultado:",resul) 
 """
 acu=0
